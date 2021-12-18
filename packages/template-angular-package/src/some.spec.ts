@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-describe('ChainGuards', () => {
+describe('SomeComponent', () => {
   // let component: SomeComponent;
 
   beforeEach(() => {

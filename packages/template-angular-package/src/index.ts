@@ -1,1 +1,1 @@
-// export * from './some.component';
+export * from './some.module';
