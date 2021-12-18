@@ -1,0 +1,8 @@
+node_modules/
+dist/
+packages/*/docs-*
+**/.angular/cache/
+
+npm-debug.log
+yarn-error.log
+.DS_Store

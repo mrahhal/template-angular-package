@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    tags:
+    - v*
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  main:
+    uses: mrahhal/.github/.github/workflows/ci-node-package-lerna.yml@main
+    with:
+      node-version: 16
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
