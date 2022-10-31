@@ -19,7 +19,6 @@
   ],
   "scripts": {
     "build": "ng-packagr -p ng-package.json -c tsconfig.lib.prod.json",
-    "lint": "npx eslint \"src/**/*.ts\"",
     "check-peer-dependencies": "npx check-peer-dependencies",
     "prepublishOnly": "npm run build",
     "postpublish": "npx cpx -u ../../README.md ./dist/",
