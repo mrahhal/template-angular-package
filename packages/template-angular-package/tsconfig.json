@@ -6,10 +6,7 @@
     "moduleResolution": "node",
     "module": "es2020",
     "target": "es2017",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "rootDir": "src",
@@ -27,11 +24,6 @@
     "strictMetadataEmit": true,
     "strictTemplates": true
   },
-  "files": [
-    "src/index.ts"
-  ],
-  "include": [
-    "**/*.spec.ts",
-    "**/*.d.ts"
-  ]
+  "files": ["src/index.ts"],
+  "include": ["**/*.spec.ts", "**/*.d.ts"]
 }

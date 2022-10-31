@@ -8,6 +8,5 @@ describe('SomeComponent', () => {
     // component = TestBed.inject(SomeComponent);
   });
 
-  it('should pass', () => {
-  });
+  it('should pass', () => {});
 });

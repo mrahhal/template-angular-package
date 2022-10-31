@@ -32,9 +32,7 @@
     "jest": "^27.4.5",
     "jest-preset-angular": "^11.0.1"
   },
-  "peerDependencies": {
-
-  },
+  "peerDependencies": {},
   "engines": {
     "node": ">=6.0.0"
   },
